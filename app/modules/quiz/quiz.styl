@@ -9,15 +9,20 @@
 	bottom: -2px;
 
 	display: block;
+	width: 284px;
+	height: 270px;
 
-	width: 374px;
-	height: 356px;
 
 	content: '';
 
 	background-image: url('/assets/images/paper.png');
 	background-repeat: no-repeat;
 	background-size: contain;
+
+	@media mobile {
+		width: 374px;
+		height: 356px;
+	}
 
 	@media landscapeTablet {
 		width: 434px;
@@ -29,18 +34,25 @@
 	position: absolute;
 	z-index: 0;
 	top: -20px;
-	right: 376px;
+	right: 226px;
+
 
 	display: block;
 
 	width: 92px;
-	height: 113px;
+	height: 93px;
 
 	content: '';
 
 	background-image: url('/assets/images/head.png');
 	background-repeat: no-repeat;
 	background-size: contain;
+
+	@media mobile {
+		right: 376px;
+		height: 113px;
+
+	}
 
 	@media landscapeTablet {
 		top: 49px;
@@ -51,12 +63,14 @@
 .section--intro .section-container::after {
 	position: absolute;
 	z-index: 0;
-	right: 452px;
+	right: 272px;
+
 	bottom: 139px;
 
 	display: block;
 
-	width: 158px;
+	width: 108px;
+
 	height: 118px;
 
 	content: '';
@@ -64,6 +78,12 @@
 	background-image: url('/assets/images/money.png');
 	background-repeat: no-repeat;
 	background-size: contain;
+
+	@media mobile {
+		right: 452px;
+		width: 158px;
+
+	}
 
 	@media landscapeTablet {
 		right: 482px;
