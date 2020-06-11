@@ -1,0 +1,15 @@
+extends ../layouts/page
+
+include ../modules/head/head
+
+include ../modules/quiz/quiz
+
+block head
+	- title = "Главная страница"
+	- route = "/"
+
+block page
+	.page-content
+
+		+quiz()
+		

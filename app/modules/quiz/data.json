@@ -1,0 +1,236 @@
+{
+	"questions": [{
+			"question": "На какую сумму Роспотребнадзор оштрафовал продуктовую сеть «Вкусвилл»?",
+			"answers": [{
+					"title": "6,3 млн рублей",
+					"id": 0,
+					"desc": "<b>Верно.</b> Проверка <a href=\"https://vc.ru/39208-rospotrebnadzor-oshtrafoval-produktovuyu-set-vkusvill-na-6-3-mln-rubley\" target=\"_blank\">обнаружила</a> просроченные продукты, но представители сети утверждают, что большая часть замечаний не коснулась их качества."
+				},
+				{
+					"title": "1 млн рублей ",
+					"id": 1,
+					"desc": "<b>Нет, немного больше: 6,3 млн рублей.</b> Проверка <a href=\"https://vc.ru/39208-rospotrebnadzor-oshtrafoval-produktovuyu-set-vkusvill-na-6-3-mln-rubley\" target=\"_blank\">обнаружила</a> просроченные продукты, но представители сети утверждают, что большая часть замечаний не коснулась их качества."
+				},
+				{
+					"title": "50 млн рублей",
+					"id": 2,
+					"desc": "<b>Нет, гораздо меньше: 6,3 млн рублей.</b> Проверка <a href=\"https://vc.ru/39208-rospotrebnadzor-oshtrafoval-produktovuyu-set-vkusvill-na-6-3-mln-rubley\" target=\"_blank\">обнаружила</a> просроченные продукты, но представители сети утверждают, что большая часть замечаний не коснулась их качества."
+				},
+				{
+					"title": "Не оштрафовал, а объявил выговор",
+					"id": 3,
+					"desc": "<b>Нет, всё же оштрафовал на 6,3 млн рублей.</b> Проверка <a href=\"https://vc.ru/39208-rospotrebnadzor-oshtrafoval-produktovuyu-set-vkusvill-na-6-3-mln-rubley\" target=\"_blank\">обнаружила</a> просроченные продукты, но представители сети утверждают, что большая часть замечаний не коснулась их качества."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Почему бутылку воды «Святой источник» в форме футбольного мяча сняли с продажи?",
+			"answers": [{
+					"title": "Она оказалась огнеопасной",
+					"id": 0,
+					"desc": "Да, бутылка благодаря своей форме призмы фокусировала свет так, что она <a href=\"https://vc.ru/39121-proizvoditel-vody-svyatoy-istochnik-vypustil-neozhidanno-ogneopasnuyu-butylku-v-forme-myacha\" target=\"_blank\">воспламенял</a> окружающие предметы."
+				},
+				{
+					"title": "Дети играли ею в футбол и разбивали окна",
+					"id": 1,
+					"desc": "Нет, дело в её форме призмы — она фокусировала свет так, что она <a href=\"https://vc.ru/39121-proizvoditel-vody-svyatoy-istochnik-vypustil-neozhidanno-ogneopasnuyu-butylku-v-forme-myacha\" target=\"_blank\">воспламенял</a> окружающие предметы."
+				},
+				{
+					"title": "Она постоянно скатывалась с полок",
+					"id": 2,
+					"desc": "Бутылка была довольно устойчивая, но благодаря своей форме призмы фокусировала свет так, что она <a href=\"https://vc.ru/39121-proizvoditel-vody-svyatoy-istochnik-vypustil-neozhidanno-ogneopasnuyu-butylku-v-forme-myacha\" target=\"_blank\">воспламенял</a> окружающие предметы."
+				},
+				{
+					"title": "Её никто не покупал",
+					"id": 3,
+					"desc": "Её покупали, но благодаря своей форме призмы фокусировала свет так, что она <a href=\"https://vc.ru/39121-proizvoditel-vody-svyatoy-istochnik-vypustil-neozhidanno-ogneopasnuyu-butylku-v-forme-myacha\" target=\"_blank\">воспламенял</a> окружающие предметы."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Сколько денег потеряли основатели WhatsApp после ухода из  Facebook?",
+			"answers": [{
+					"title": "Они лишились акций на $1,3 млрд",
+					"id": 0,
+					"desc": "Ян Кум и Брайан Эктон действительно могли получить акции на эту сумму, если бы проработали в Facebook до ноября 2018 года. Они ушли досрочно из-за <a href=\"https://vc.ru/39509-wsj-osnovateli-whatsapp-lishilis-akciy-facebook-na-1-3-mlrd-posle-uhoda-iz-kompanii\" target=\"_blank\">скандала</a> с руководством."
+				},
+				{
+					"title": "Они не только лишились акций на $1,3 млрд и выплатили штрафы на $100 млн.",
+					"id": 1,
+					"desc": "Ян Кум и Брайан Эктон действительно могли получить акции на эту сумму, если бы проработали в Facebook до ноября 2018 года. Они ушли досрочно из-за <a href=\"https://vc.ru/39509-wsj-osnovateli-whatsapp-lishilis-akciy-facebook-na-1-3-mlrd-posle-uhoda-iz-kompanii\" target=\"_blank\">скандала</a> с руководством."
+				},
+				{
+					"title": "Ничего не лишились, к моменту ухода они уже получили всё вознаграждение",
+					"id": 2,
+					"desc": "Ян Кум и Брайан Эктон действительно могли получить акции на эту сумму, если бы проработали в Facebook до ноября 2018 года. Они ушли досрочно из-за <a href=\"https://vc.ru/39509-wsj-osnovateli-whatsapp-lishilis-akciy-facebook-na-1-3-mlrd-posle-uhoda-iz-kompanii\" target=\"_blank\">скандала</a> с руководством."
+				},
+				{
+					"title": "Ничего не лишились, но получили иски за нарушение коммерческой тайны",
+					"id": 3,
+					"desc": "Ян Кум и Брайан Эктон действительно могли получить акции на эту сумму, если бы проработали в Facebook до ноября 2018 года. Они ушли досрочно из-за <a href=\"https://vc.ru/39509-wsj-osnovateli-whatsapp-lishilis-akciy-facebook-na-1-3-mlrd-posle-uhoda-iz-kompanii\" target=\"_blank\">скандала</a> с руководством."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "В какой скандал угодила компания «Газелькин» в июне 2018 года?",
+			"answers": [{
+					"title": "Предложила клиентам вызвать «водителей-славян» за дополнительную плату",
+					"id": 0,
+					"desc": "Компания дала клиентам <a href=\"https://vc.ru/39346-gruzovaya-kompaniya-gazelkin-predlozhila-klientam-voditeley-slavyan-za-dopolnitelnuyu-platu\" target=\"_blank\">возможность</a> выбрать водителя славянской внешности и российского гражданства. После скандала она переименовала услугу в «идеальный русский язык»."
+				},
+				{
+					"title": "Её «Газели» постоянно застревали под мостом с надписью «Газель не проедет»",
+					"id": 1,
+					"desc": "Было пару раз. На самом деле компания дала клиентам <a href=\"https://vc.ru/39346-gruzovaya-kompaniya-gazelkin-predlozhila-klientam-voditeley-slavyan-za-dopolnitelnuyu-platu\" target=\"_blank\">возможность</a> выбрать водителя славянской внешности и российского гражданства. После скандала она переименовала услугу в «идеальный русский язык»."
+				},
+				{
+					"title": "Грузчики разбили антикварный шкаф стоимостью 163 млн рублей",
+					"id": 2,
+					"desc": "О таком случае не сообщалось, но зато компания дала клиентам <a href=\"https://vc.ru/39346-gruzovaya-kompaniya-gazelkin-predlozhila-klientam-voditeley-slavyan-za-dopolnitelnuyu-platu\" target=\"_blank\">возможность</a> выбрать водителя славянской внешности и российского гражданства. После скандала она переименовала услугу в «идеальный русский язык»."
+				},
+				{
+					"title": "Выложила персональные данные клиентов — телефоны, адреса, почты — в открытый доступ",
+					"id": 3,
+					"desc": "О таком случае не сообщалось, но зато компания дала клиентам <a href=\"https://vc.ru/39346-gruzovaya-kompaniya-gazelkin-predlozhila-klientam-voditeley-slavyan-za-dopolnitelnuyu-platu\" target=\"_blank\">возможность</a> выбрать водителя славянской внешности и российского гражданства. После скандала она переименовала услугу в «идеальный русский язык»."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Простой вопрос для передышки. До какого порога правительство собирается повысить НДС?",
+			"answers": [{
+					"title": "20%",
+					"id": 0,
+					"desc": "Да, НДС <a href=\"https://vc.ru/40001-medvedev-anonsiroval-povyshenie-nds-do-20\">собираются</a> повысить с 18% до 20%. Кстати, <a href=\"https://vc.ru/38891-nds-20\">вот чем</a> это грозит"
+				},
+				{
+					"title": "19%",
+					"id": 1,
+					"desc": "Нет, всё же именно НДС <a href=\"https://vc.ru/40001-medvedev-anonsiroval-povyshenie-nds-do-20\">собираются</a> повысить с 18% до 20%. Кстати, <a href=\"https://vc.ru/38891-nds-20\">вот чем</a> это грозит"
+				},
+				{
+					"title": "21%",
+					"id": 2,
+					"desc": "Нет, НДС <a href=\"https://vc.ru/40001-medvedev-anonsiroval-povyshenie-nds-do-20\">собираются</a> повысить с 18% до 20%. Кстати, <a href=\"https://vc.ru/38891-nds-20\">вот чем</a> это грозит"
+				},
+				{
+					"title": "Никто не собирается повышать НДС, зато повысят НДФЛ",
+					"id": 3,
+					"desc": "Нет, всё же именно НДС <a href=\"https://vc.ru/40001-medvedev-anonsiroval-povyshenie-nds-do-20\">собираются</a> повысить с 18% до 20%. Кстати, <a href=\"https://vc.ru/38891-nds-20\">вот чем</a> это грозит"
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Чем займётся Герман Клименко после ухода с поста советника президента по интернету?",
+			"answers": [{
+					"title": "Проектами в сфере цифровой медицины",
+					"id": 0,
+					"desc": "<a href=\"https://vc.ru/39908-putin-osvobodil-germana-klimenko-ot-dolzhnosti-sovetnika-prezidenta-po-internetu\">Верно</a>"
+				},
+				{
+					"title": "Станет разрабатывать собственный мессенджер",
+					"id": 1,
+					"desc": "Это вполне возможно, но сперва он <a href=\"https://vc.ru/39908-putin-osvobodil-germana-klimenko-ot-dolzhnosti-sovetnika-prezidenta-po-internetu\">планирует</a> заниматься проектами в сфере цифровой медицины."
+				},
+				{
+					"title": "Будет советником по медицине",
+					"id": 2,
+					"desc": "Нет, он <a href=\"https://vc.ru/39908-putin-osvobodil-germana-klimenko-ot-dolzhnosti-sovetnika-prezidenta-po-internetu\">планирует</a> заниматься собственными проектами в сфере цифровой медицины."
+				},
+				{
+					"title": "Отправится в кругосветное путешествие",
+					"id": 3,
+					"desc": "Он <a href=\"https://vc.ru/39908-putin-osvobodil-germana-klimenko-ot-dolzhnosti-sovetnika-prezidenta-po-internetu\">планирует</a> заниматься собственными проектами в сфере цифровой медицины."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Какую услугу запустила «Студия Артемия Лебедева» на волне успеха «Экспресс-дизайна»?",
+			"answers": [{
+					"title": "Экспресс-дизайн не логотипов, а предметов — за 300 тысяч рублей",
+					"id": 0,
+					"desc": "Да, и заказчик точно так же <a href=\"https://vc.ru/39869-studiya-artemiya-lebedeva-predlozhila-startapam-ekspress-dizayn-lyubogo-predmeta-za-300-tysyach-rubley\">обязан</a> принять первый предложенный вариант."
+				},
+				{
+					"title": "Сервис экспресс-маркетинга: за 500 тысяч рублей Артемий Лебедев лично весь месяц будет вести ваш блог",
+					"id": 1,
+					"desc": "Речь об экспресс-дизайне предметов, и заказчик точно так же <a href=\"https://vc.ru/39869-studiya-artemiya-lebedeva-predlozhila-startapam-ekspress-dizayn-lyubogo-predmeta-za-300-tysyach-rubley\">обязан</a> принять первый предложенный вариант."
+				},
+				{
+					"title": "Экспресс-доставку обедов в офис",
+					"id": 2,
+					"desc": "Речь об экспресс-дизайне предметов, и заказчик точно так же <a href=\"https://vc.ru/39869-studiya-artemiya-lebedeva-predlozhila-startapam-ekspress-dizayn-lyubogo-predmeta-za-300-tysyach-rubley\">обязан</a> принять первый предложенный вариант."
+				},
+				{
+					"title": "Создание визиток за 50 тысяч рублей",
+					"id": 3,
+					"desc": "Речь об экспресс-дизайне предметов, и заказчик точно так же <a href=\"https://vc.ru/39869-studiya-artemiya-lebedeva-predlozhila-startapam-ekspress-dizayn-lyubogo-predmeta-za-300-tysyach-rubley\">обязан</a> принять первый предложенный вариант."
+				}
+			],
+			"correctAnswer": 0
+		},
+		{
+			"question": "Что сказал Олег Тиньков в интервью Владимиру Познеру в рамках ПМЭФ-2018?",
+			"answers": [{
+					"title": "Это стыдно — нанимать людей, которыми нужно управлять",
+					"id": 0,
+					"desc": "Вопрос был с подвохом: все эти фразы прозвучали в <a href=\"https://vc.ru/38748-eto-stydno-nanimat-lyudey-kotorymi-nuzhno-upravlyat\">интервью</a>"
+				},
+				{
+					"title": "Я бы хотел, чтобы на моей гробовой доске было написано слово «Предприниматель»",
+					"id": 1,
+					"desc": "Вопрос был с подвохом: все эти фразы прозвучали в <a href=\"https://vc.ru/38748-eto-stydno-nanimat-lyudey-kotorymi-nuzhno-upravlyat\">интервью</a>"
+				},
+				{
+					"title": "Чтобы быть предпринимателем, не нужно никакого образования",
+					"id": 2,
+					"desc": "Вопрос был с подвохом: все эти фразы прозвучали в <a href=\"https://vc.ru/38748-eto-stydno-nanimat-lyudey-kotorymi-nuzhno-upravlyat\">интервью</a>"
+				},
+				{
+					"title": "Предприниматели должны быть звёздами и элитой общества",
+					"id": 3,
+					"desc": "Вопрос был с подвохом: все эти фразы прозвучали в <a href=\"https://vc.ru/38748-eto-stydno-nanimat-lyudey-kotorymi-nuzhno-upravlyat\">интервью</a>"
+				}
+			],
+			"correctAnswer": 0
+		}
+	],
+
+	"results": [{
+			"title": "Я работаю в редакции vc.ru",
+			"score": 8,
+			"image": "score-8.png",
+			"share": "/link-for/share"
+		},
+		{
+			"title": "Читаю vc.ru каждый день, но работать тоже нужно",
+			"score": 7,
+			"image": "score-7.png",
+			"share": "/link-for/share"
+
+		},
+		{
+			"title": "Бизнес это интересно, но где взять столько времени?",
+			"score": 6,
+			"image": "score-6.png",
+			"share": "/link-for/share"
+		},
+		{
+			"title": "Читаю vc.ru с экрана попутчика в метро",
+			"score": 5,
+			"image": "score-5.png",
+			"share": "/link-for/share"
+		},
+		{
+			"title": "Мне больше интересен футбол",
+			"score": 0,
+			"image": "score-4-8.png",
+			"share": "/link-for/share"
+		}
+	]
+}

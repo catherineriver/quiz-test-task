@@ -1,0 +1,9 @@
+include ../nav/nav
+include ../icon/icon
+
+mixin header(className)
+	header.header&attributes(attributes)
+		a.header-logo(href="/" title="На главную")!=config.siteTitle
+
+		.header-menu
+			+nav(nav.main)

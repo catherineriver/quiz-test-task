@@ -1,0 +1,62 @@
+mixin head(data)
+	-
+		var description = " "
+		var keywords = " "
+		
+	meta(charset="utf-8")
+	meta(name="viewport" content="width=device-width initial-scale=1.0")
+	meta(content="IE=edge" http-equiv="X-UA-Compatible")
+	// The above 3 meta tags *must* come first in the head;
+	// any other head content must come *after* these tags
+
+	// Title
+	title= title
+
+	// Meta tags
+	meta(name="description" content=description)
+	meta(name="keywords" content=keywords)
+
+	meta(name="format-detection" content="telephone=no")
+	meta(name="format-detection" content="address=no")
+	meta(name="robots" content="noodp noydir")
+
+	// iOS: Add to Home Screen
+	meta(name="apple-mobile-web-app-capable" content="yes")
+	meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+	meta(name="apple-mobile-web-app-title" content=config.siteTitle)
+
+
+	// Styles
+	link(rel="stylesheet" href=config.path.styles + "/main.css")
+
+	// Facebook / Open Graph
+	// Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup
+	// Open Graph: http://ogp.me/
+	meta(property="fb:app_id" content="387979211564142")
+	meta(property="og:url" content=config.base + "/index.html")
+	meta(property="og:type" content="website")
+	meta(property="og:title" content=data.title)
+	meta(property="og:image" content=config.base + "/assets/images/share-image.png")
+	meta(property="og:description" content=description)
+	meta(property="og:site_name" content=config.siteTitle)
+	meta(property="og:locale" content="en_US")
+	meta(property="article:author" content=author)
+
+	meta(name="twitter:image" content=config.base + "/assets/images/share-image.png")
+	meta(name="twitter:card" content="summary_large_image")
+	meta(name="twitter:title" content=config.siteTitle)
+	meta(name="twitter:description" content=description)
+
+	// Favicons
+	link(sizes="76x76"   href="/assets/favicons/apple-touch-icon-76x76.png"   rel="apple-touch-icon")
+	link(sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png" rel="apple-touch-icon")
+	link(sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon")
+	link(sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon")
+
+	link(rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png")
+	link(rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png")
+	link(rel="shortcut icon" href="/assets/favicons/favicon.ico")
+
+	// A list of everything that could go in the head of your document
+	// https://github.com/joshbuchea/HEAD
+

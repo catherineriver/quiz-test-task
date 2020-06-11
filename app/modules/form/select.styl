@@ -1,0 +1,53 @@
+.select {
+	position: relative;
+
+	max-width: 350px;
+}
+
+.select::after {
+	position: absolute;
+	top: 50%;
+	right: 18px;
+
+	width: 12px;
+	height: 8px;
+
+	content: '';
+	transform: translateY(-50%);
+
+	background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath d='M6 8l.576-.61L12 1.59 10.847 0 6 5.182 1.153 0 0 1.59l5.424 5.8z' fill='%23272D92' fill-rule='nonzero'/%3E %3C/svg%3E");
+	pointer-events: none;
+}
+
+.select select {
+	width: 100%;
+	height: 60px;
+	padding: 0 30px 0 22px;
+
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+	background: none;
+	box-shadow: none;
+
+	font-size: 16px;
+	font-weight: normal;
+
+	appearance: none;
+
+	font-family: $primaryFont;
+	font-weight: 300;
+	text-overflow: '';
+}
+
+.select select:focus {
+	border-color: #969696;
+	outline: none;
+}
+
+.select option {
+	background-color: white;
+}
+
+.select select::-ms-expand {
+  display: none;
+}

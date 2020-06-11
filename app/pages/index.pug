@@ -1,0 +1,16 @@
+extends ../layouts/default
+
+include ../modules/head/head
+include ../modules/_page-list/_page-list
+
+
+block head
+	- title = "All pages"
+
+	style
+		:stylus
+			@import "../static/styles/_variables.styl"
+			@import "../modules/_page-list/_page-list.styl"
+
+block main
+	+page-list(pageList.data)

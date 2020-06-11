@@ -1,0 +1,20 @@
+include ../modules/javascripts/javascripts
+include ../modules/head/head
+include ../modules/header/header
+
+doctype html
+html(lang=config.lang)
+	head
+		- var title = "Default title, change me!"
+		block head
+		+head({title})
+
+	body.page(class=bodyClass)
+		
+		block header
+		.page-header
+			+header()
+
+		block page
+
+		+javascripts()

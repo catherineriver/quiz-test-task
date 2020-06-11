@@ -1,0 +1,42 @@
+.nav {
+	font-size: 18px;
+	font-weight: 700;
+
+	@media desktop {
+		font-size: 20px;
+	}
+}
+
+.nav-menu {
+	display: flex;
+	flex-flow: column nowrap;
+
+	align-items: center;
+	justify-content: center;
+
+	list-style: none;
+
+	@media landscapeTablet {
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-flow: row nowrap;
+	}
+}
+
+.nav-menu__item {
+	margin: 10px 0;
+	padding: 10px 0;
+
+	@media landscapeTablet {
+		margin: 0 0 0 28px;
+		padding: 0;
+	}
+
+	@media desktop {
+		margin: 0 0 0 38px;
+	}
+}
+
+.nav-menu__item.active {
+	color: #232882;
+}

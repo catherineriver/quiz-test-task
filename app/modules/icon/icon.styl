@@ -1,0 +1,51 @@
+.icon {
+	fill: currentColor;
+	fill-rule: evenodd;
+}
+
+.icon-block {
+	display: flex;
+	align-items: center;
+	flex-flow: row nowrap;
+	justify-content: center;
+
+	width: 94px;
+	height: 94px;
+	margin-bottom: 21px;
+
+	color: #fff;
+	border-radius: 50%;
+	background: #000;
+}
+
+.icon--logo {
+	@media (max-width: 1200px) {
+		max-width: 180px;
+	}
+	@media (max-width: 1100px) {
+		max-width: 160px;
+	}
+}
+
+.icon--services {
+	max-height: 65px;
+	width: 90px;
+
+	@media portraitTablet {
+		width: 120px;
+	}
+}
+
+.icon--search {
+	width: 21px;
+	height: 21px;
+
+	@media mobile {
+		width: 19px;
+		height: 19px;
+	}
+}
+
+.icon--tg {
+	margin-right: 1px;
+}

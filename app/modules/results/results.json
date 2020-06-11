@@ -1,0 +1,26 @@
+{
+	"results": [{
+			"title": "Мне больше интересен футбол",
+			"score": 0,
+			"image": "score-4-8.png"
+		}, {
+			"title": "Читаю vc.ru с экрана попутчика в метро",
+			"score": 5,
+			"image": "score-5.png"
+		},
+		{
+			"title": "Бизнес это интересно, но где взять столько времени?",
+			"score": 6,
+			"image": "score-6.png"
+		}, {
+			"title": "Читаю vc.ru каждый день, но работать тоже нужно",
+			"score": 7,
+			"image": "score-7.png"
+		},
+		{
+			"title": "Я работаю в редакции vc.ru",
+			"score": 8,
+			"image": "score-8.png"
+		}
+	]
+}

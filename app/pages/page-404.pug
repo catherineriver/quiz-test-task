@@ -1,0 +1,21 @@
+extends ../layouts/page
+
+include ../modules/head/head
+include ../modules/header/header
+
+
+block head
+	- title = "404"
+	- route = "page-404"
+	- bodyClass = 'page--isEmpty'
+
+block page
+	.page-content
+
+		.section.section--main.section--gradient
+			.section-container
+				.page-empty
+					h1 Такой страницы нет!
+					.body
+						p Вы перешли по неправильному адресу или такой страницы больше не существует. Попробуйте <a href="/search.html">поискать ее</a> или начните с <a href="/">главной страницы</a>
+

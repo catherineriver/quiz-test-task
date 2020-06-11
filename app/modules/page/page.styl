@@ -1,0 +1,100 @@
+.page {
+	display: flex;
+	flex-flow: column nowrap;
+	flex-grow: 1;
+	background-color: $body-bg;
+}
+
+.page-header {
+	padding: 0 15px;
+}
+
+.section {
+	padding: 119px 40px 40px;
+	position: relative;
+	max-width: 1060px;
+	margin: 0 auto;
+	overflow: hidden;
+
+	background-image: url('/assets/images/background.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.09), 0 30px 40px 0 rgba(133, 73, 86, 0.21);
+
+	@media portraitTablet {
+		padding: 68px 52px 40px;
+	}
+}
+
+.section-container {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+
+	min-height: 427px;
+	margin: 0 auto;
+
+	@media landscapeTablet {}
+}
+
+.section-header {
+	position: relative;
+	max-width: 485px;
+	z-index: 1;
+
+	@media landscapeTablet {
+		margin: 40px 0;
+		padding: 0;
+	}
+}
+
+.section-title {
+	font-family: Roboto-Black;
+	font-size: 34px;
+	color: #000000;
+	line-height: 40px;
+	margin: 0 0 16px;
+
+	@media landscapeTablet {
+		color: #000000;
+
+		font-family: Roboto-Black;
+		font-size: 34px;
+		line-height: 40px;
+	}
+}
+
+.section-desc {
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	color: #000000;
+	line-height: 27px;
+
+	@media landscapeTablet {
+		margin-top: 16px;
+	}
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+.page--isEmpty .page-content {
+	position: relative;
+
+	overflow: hidden;
+}
+
+.page--isEmpty .section {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.page-empty {
+	min-height: 70vh;
+	padding-top: 40px;
+
+	user-select: none;
+}

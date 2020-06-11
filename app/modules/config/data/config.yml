@@ -1,0 +1,11 @@
+---
+config:
+  siteTitle: Quiz
+  base: "sitename.com"
+  lang: ru
+  path:
+    favicons: assets/favicons
+    styles: assets/stylesheets
+    scripts: assets/javascripts
+    images: assets/images
+    fonts: assets/fonts

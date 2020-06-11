@@ -1,0 +1,119 @@
+.button {
+	display: inline-block;
+
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	cursor: pointer;
+	user-select: none;
+	text-align: center;
+	white-space: nowrap;
+
+	border: 0;
+	outline: none;
+	background-color: transparent;
+
+	font-family: $primaryFont;
+	line-height: 1.42857;
+
+	appearance: none;
+	z-index: 1;
+}
+
+.button[disabled],
+.button[disabled]:hover {
+	cursor: default;
+	pointer-events: none;
+
+	opacity: 0.5;
+	box-shadow: none;
+}
+
+// SIZES
+
+.button--small {
+	min-width: 114px;
+	height: 40px;
+	padding: 0 14px;
+
+	text-align: center;
+
+	border-radius: 3px;
+
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.button--medium {
+	min-width: 146px;
+	height: 56px;
+	padding: 0 15px;
+
+	border-radius: 2px;
+
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 56px;
+}
+
+
+//  THEMES
+
+.button--action {
+	color: #000;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0 15px 22px 0 rgba(121, 54, 68, 0.23);
+
+}
+
+.button--action:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.button--transparent {
+	display: flex;
+	align-items: center;
+
+	max-width: 200px;
+	height: 27px;
+	padding: 0;
+
+	text-align: left;
+
+	color: #000;
+
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 27px;
+}
+
+.button--next::after {
+	display: block;
+
+	width: 26px;
+	height: 20px;
+	margin-left: 13px;
+
+	content: '';
+
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='26px' height='23px' viewBox='0 0 26 23' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EGroup 5%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='editorial_article_quest_wrong' transform='translate(-690.000000, -676.000000)' fill='%23000000'%3E%3Cg id='bg' transform='translate(273.000000, 211.500000)'%3E%3Cg id='Group-3' transform='translate(281.000000, 26.500000)'%3E%3Cg id='Group-5' transform='translate(136.000000, 439.500000)'%3E%3Cg id='flaticon1525418305-svg' transform='translate(13.000000, 0.000000)' fill-rule='nonzero'%3E%3Cpolygon id='Shape' points='2.37581699 0 0.0424836601 2.33333333 7.70915033 10 0.0424836601 17.6666667 2.37581699 20 12.375817 10'%3E%3C/polygon%3E%3C/g%3E%3Crect id='Rectangle' x='0.64239502' y='8.15454102' width='21.71521' height='3.69091797'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.button--again::after {
+	display: block;
+
+	width: 26px;
+	height: 20px;
+	margin-left: 13px;
+
+	content: '';
+
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='22px' height='22px' viewBox='0 0 22 22' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Erefresh-arrow%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='editorial_article_final' transform='translate(-717.000000, -682.000000)' fill='%23E25A76'%3E%3Cg id='bg' transform='translate(273.000000, 211.500000)'%3E%3Cg id='Group-2' transform='translate(281.000000, 30.000000)'%3E%3Cg id='refresh' transform='translate(2.000000, 437.085938)'%3E%3Cpath d='M181.86026,4.45333879 C181.486676,4.29853527 181.167839,4.36251233 180.903331,4.64526999 L179.126027,6.40851988 C178.150219,5.48829893 177.036599,4.77469245 175.783068,4.26916874 C174.529327,3.76343528 173.233005,3.51025391 171.893472,3.51025391 C170.470874,3.51025391 169.113301,3.78818706 167.818657,4.3444729 C166.524852,4.89991969 165.408085,5.64729768 164.468986,6.58618734 C163.530726,7.52528677 162.782718,8.64205365 162.227271,9.93585872 C161.670776,11.2305028 161.393052,12.588285 161.393052,14.0106734 C161.393052,15.4322229 161.670776,16.790005 162.227271,18.0846491 C162.783557,19.3792932 163.530726,20.495221 164.468986,21.4343205 C165.408085,22.3723711 166.524852,23.1205881 167.818657,23.6760349 C169.113301,24.2323208 170.470874,24.5102539 171.893472,24.5102539 C173.460805,24.5102539 174.951366,24.1798805 176.363896,23.5187143 C177.776425,22.858387 178.980243,21.9266292 179.973251,20.7230214 C180.046248,20.6319851 180.080649,20.5296218 180.075614,20.4157217 C180.071629,20.3018215 180.028208,20.2084779 179.946192,20.1354811 L178.073237,18.2484723 C177.972342,18.1664558 177.859281,18.1255525 177.731537,18.1255525 C177.585543,18.1435919 177.480663,18.1985492 177.416895,18.2902148 C176.751534,19.1563174 175.936193,19.8258741 174.969405,20.3001434 C174.003247,20.7737835 172.978145,21.0106035 171.893472,21.0106035 C170.945353,21.0106035 170.040864,20.8262237 169.179586,20.456625 C168.318517,20.0880752 167.572818,19.5890541 166.944374,18.9597715 C166.31593,18.3313279 165.816909,17.585628 165.447311,16.7243498 C165.077712,15.8632815 164.893542,14.9587926 164.893542,14.0106734 C164.893542,13.0625543 165.078551,12.1580654 165.447311,11.2967873 C165.81607,10.4357189 166.315091,9.69001897 166.944374,9.0615754 C167.573657,8.43229278 168.318517,7.93327167 169.179586,7.56472181 C170.040864,7.19512316 170.945353,7.01074335 171.893472,7.01074335 C173.725523,7.01074335 175.31593,7.63499171 176.665532,8.88390794 L174.777684,10.7700777 C174.495765,11.0436059 174.431788,11.3582472 174.586592,11.7131626 C174.741605,12.077727 175.010309,12.2604287 175.393752,12.2604287 L181.518559,12.2604287 C181.755379,12.2604287 181.960316,12.1735877 182.133998,12.0007447 C182.306841,11.8279018 182.392843,11.6221264 182.392843,11.3853063 L182.392843,5.26049863 C182.392843,4.8778948 182.216014,4.60919112 181.86026,4.45333879 Z' id='refresh-arrow'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: contain;
+}

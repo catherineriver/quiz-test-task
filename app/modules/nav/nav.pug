@@ -1,0 +1,7 @@
+mixin nav(data)
+	nav.nav
+		ul.nav-menu&attributes(attributes)
+			each item in data
+				- var itemClasses = ['nav-menu__item']
+				li(class=itemClasses)
+					a(href=item.url)= item.title
