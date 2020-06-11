@@ -92,6 +92,7 @@
 
 	font-family: Roboto-Regular;
 	font-size: 18px;
+	line-height: 33px;
 }
 
 .section--progress,
@@ -122,6 +123,10 @@
 
 	max-width: 498px;
 	min-height: 466px;
+}
+
+.section-button {
+	z-index: 1;
 }
 
 .answers-list {
@@ -171,6 +176,7 @@
 	border-radius: 2px;
 	background: #FFFFFF;
 	box-shadow: inset 0px 0px 0px 1px rgba(237, 205, 211, 1);
+	transition: box-shadow 150ms;
 
 	font-family: Roboto-Regular;
 	font-size: 16px;
@@ -200,10 +206,16 @@
 .answer-desc {
 	flex-grow: 2;
 
+	margin: 16px 0;
+
 	color: #000000;
 
 	font-size: 16px;
 	line-height: 23px;
+
+	@media landscapeTablet {
+		margin: 0;
+	}
 }
 
 .answer-desc a {
@@ -216,13 +228,17 @@
 	z-index: 1;
 
 	max-width: 350px;
-	margin: 60px 0 41px;
+	margin: 10px 0 41px;
 
 	color: #000000;
 
 	font-family: Roboto-Black;
 	font-size: 36px;
 	line-height: 42px;
+
+	@media mobile {
+		margin: 60px 0 41px;
+	}
 
 
 }
@@ -231,14 +247,22 @@
 	position: absolute;
 	z-index: 0;
 	right: 0;
+	bottom: 0;
 
 	display: block;
 
-	width: 518px;
-	height: 536px;
+	width: 248px;
+	height: 346px;
 
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	@media mobile {
+		bottom: auto;
+
+		width: 518px;
+		height: 536px;
+	}
 
 }
 
@@ -250,7 +274,7 @@
 
 .share-container {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 }
 
 .share {
@@ -261,6 +285,7 @@
 
 	min-width: 60px;
 	height: 50px;
+	margin: 5px;
 	padding: 0 15px;
 
 	letter-spacing: 0;
@@ -268,24 +293,22 @@
 	border-radius: 2px;
 	background: #FFFFFF;
 	box-shadow: 0 15px 22px 0 rgba(121, 54, 68, 0.23);
+	transition: box-shadow 500ms;
 
 	font-family: Roboto-Bold;
 	font-size: 17px;
 }
 
 a:hover {
-	color: #fff;
-	background: #4267b2;
+	box-shadow: 0 15px 22px 0 rgba(121, 54, 68, 0.1);
+	transition: box-shadow 150ms;
+	color: #4267B2;
 }
 
 .share--fb {
 	padding: 0px 18px;
 
 	color: #4267B2;
-}
-
-.share--vk {
-	margin: 0 15px;
 }
 
 .share--fb::before {
